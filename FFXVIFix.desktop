@@ -3,6 +3,6 @@ Version=1.0
 Type=Application
 Name=FFXVI Fix
 Comment=Downloads and runs FFXVI fix script
-Exec=bash -c 'mkdir -p ~/.local/share/sdfixes && curl -o ~/.local/share/sdfixes/ffxvifix.sh https://raw.githubusercontent.com/cmkrist/steamdeckfixes/main/ffxiv/ffxvifix.sh && chmod +x ~/.local/share/sdfixes/ffxvifix.sh && ~/.local/share/sdfixes/ffxvifix.sh'
+Exec=bash -c 'mkdir -p ~/.local/share/sdfixes && curl -o ~/.local/share/sdfixes/ffxvifix.sh https://raw.githubusercontent.com/cmkrist/steamdeckfixes/main/ffxvi/ffxvifix.sh && chmod +x ~/.local/share/sdfixes/ffxvifix.sh && ~/.local/share/sdfixes/ffxvifix.sh'
 Terminal=true
 Categories=Game;
